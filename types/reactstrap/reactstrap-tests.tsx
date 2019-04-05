@@ -2386,7 +2386,10 @@ class Example80 extends React.Component<any, any> {
 class Example81 extends React.Component {
   render() {
     return (
-      <Pagination>
+      <Pagination aria-label="Page navigation example">
+        <PaginationItem>
+          <PaginationLink first href="#" />
+        </PaginationItem>
         <PaginationItem>
           <PaginationLink previous href="#" />
         </PaginationItem>
@@ -2418,6 +2421,9 @@ class Example81 extends React.Component {
         <PaginationItem>
           <PaginationLink next href="#" />
         </PaginationItem>
+        <PaginationItem>
+          <PaginationLink last href="#" />
+        </PaginationItem>
       </Pagination>
     );
   }
@@ -2426,7 +2432,10 @@ class Example81 extends React.Component {
 class Example82 extends React.Component {
   render() {
     return (
-      <Pagination>
+      <Pagination aria-label="Page navigation example">
+        <PaginationItem disabled>
+          <PaginationLink first href="#" />
+        </PaginationItem>
         <PaginationItem disabled>
           <PaginationLink previous href="#" />
         </PaginationItem>
@@ -2458,6 +2467,9 @@ class Example82 extends React.Component {
         <PaginationItem>
           <PaginationLink next href="#" />
         </PaginationItem>
+        <PaginationItem>
+          <PaginationLink last href="#" />
+        </PaginationItem>
       </Pagination>
     );
   }
@@ -2466,7 +2478,10 @@ class Example82 extends React.Component {
 class Example83 extends React.Component {
   render() {
     return (
-      <Pagination size="lg">
+      <Pagination size="lg" aria-label="Page navigation example">
+        <PaginationItem>
+          <PaginationLink first href="#" />
+        </PaginationItem>
         <PaginationItem>
           <PaginationLink previous href="#" />
         </PaginationItem>
@@ -2487,6 +2502,9 @@ class Example83 extends React.Component {
         </PaginationItem>
         <PaginationItem>
           <PaginationLink next href="#" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink last href="#" />
         </PaginationItem>
       </Pagination>
     );
@@ -2496,7 +2514,10 @@ class Example83 extends React.Component {
 class Example84 extends React.Component {
   render() {
     return (
-      <Pagination size="sm">
+      <Pagination size="sm" aria-label="Page navigation example">
+        <PaginationItem>
+          <PaginationLink first href="#" />
+        </PaginationItem>
         <PaginationItem>
           <PaginationLink previous href="#" />
         </PaginationItem>
@@ -2517,6 +2538,9 @@ class Example84 extends React.Component {
         </PaginationItem>
         <PaginationItem>
           <PaginationLink next href="#" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink last href="#" />
         </PaginationItem>
       </Pagination>
     );
