@@ -53,3 +53,7 @@ yarn.lock
 
 # pnpm
 shrinkwrap.yaml
+
+# selected types libs
+types/
+!types/meteor
